@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">YourRace</string>
+
+    <string name="recordar_contra"><u>¿Olvidaste tu contraseña?</u></string>
+
+    <string name="close_drawer">Cerrar drawer</string>
+    <string name="open_drawer">Abrir drawer</string>
+
+    <!-- Menu de la parte de gestion de ventas -->
+    <string name="menu_home">Home</string>
+    <string name="menu_inventory">Gestion de Inventario</string>
+    <string name="menu_sales">Registro de Ventas</string>
+    <string name="menu_orders">Gestión de Pedidos</string>
+    <string name="menu_analysis_reports">Análisis y Reportes</string>
+
+    <!-- Menu's para la tienda virtual -->
+
+    <string name="menu_shopping_cart">Mi carrito de compras</string>
+    <string name="menu_TVorders">Mis Pedidos</string>
+    <string name="menu_profile">Perfil</string>
+
+    <string name="menu_exit">Salir</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

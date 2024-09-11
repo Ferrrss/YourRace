@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filtroUsuario">
+        <item>-- Filtrar por --</item>
+        <item>Orden Alfabético</item>
+        <item>Id</item>
+        <item>Fecha de Registro</item>
+        <item>Mayoría compras</item>
+        <item>Menoría compras</item>
+    </string-array>
+</resources>

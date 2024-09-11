@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tiendaVirtual.fragments.MainFragmentTv">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C6ECE4">
+
+        <ViewFlipper
+            android:id="@+id/vf_carrousel"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+        </ViewFlipper>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvZapatillas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/vf_carrousel"
+            android:layout_marginTop="16dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

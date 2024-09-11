@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="estados">
+        <item>Enviado</item>
+        <item>Entregado</item>
+        <item>No entregado</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "733133673058",
+    "project_id": "yourrace-7bda9",
+    "storage_bucket": "yourrace-7bda9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733133673058:android:aed752d1c902dbef7f373b",
+        "android_client_info": {
+          "package_name": "com.example.yourrace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaGAyiJQ3g26WWMsOLMQTpE784VPFlOsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733133673058:android:b8293f2fd98b3c5d7f373b",
+        "android_client_info": {
+          "package_name": "com.vimoda.yourrace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaGAyiJQ3g26WWMsOLMQTpE784VPFlOsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

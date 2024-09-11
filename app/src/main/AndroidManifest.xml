@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ico_yourrace"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ico_yourrace"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YourRace"
+        tools:targetApi="31">
+        <activity
+            android:name=".Fragments.Pedidos.Detalles"
+            android:exported="false" />
+        <activity
+            android:name=".tiendaVirtual.fragments.pedidos_compras.DetallesPedidoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tiendaVirtual.MainTienda"
+            android:exported="false" />
+        <activity
+            android:name=".crud.RenovarContra"
+            android:exported="false" />
+        <activity
+            android:name=".crud.RegistroUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.Inventario.AgregarInventario"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.Inventario.EditarInventario"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.Pedidos.ExchangesDevolution"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.Pedidos.UpdateOrderStatus"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.Pedidos.ProcessOrders"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.Pedidos.PendingOrders"
+            android:exported="false" />
+        <activity
+            android:name=".Fragments.Pedidos.CurrentOrders"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:theme="@style/Theme.YourRace">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
